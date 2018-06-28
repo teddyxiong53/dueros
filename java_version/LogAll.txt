@@ -1,0 +1,3293 @@
+2018-05-19 19:02:04
+DCS-WakeUpImpl-wakeUpInitialRet:0
+2018-05-19 19:02:05
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/directives] 269.4ms
+content-type: multipart/related; boundary=___dueros_dcs_v1_boundary___; type=application/json
+date: Sat, 19 May 2018 11:02:06 GMT
+remote-server: 10.194.71.45:8280
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:06
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:02:06
+DCS-AudioRecordThread-audioRecord startRecording 
+2018-05-19 19:02:06
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:02:06
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/directives
+2018-05-19 19:02:06
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:02:06
+DCS-DcsClient-getDirectives statusCode: 200
+2018-05-19 19:02:10
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:10
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:02:10
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:02:10
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:02:10
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: b62a5b1d-5b13-4c33-9b27-22ce8b707ef4
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:10
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:02:12
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:02:12
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:02:13
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"34f2eed4dced45a2a028a0bb71e2887d","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb"},"payload":{}}
+2018-05-19 19:02:13
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"34f2eed4dced45a2a028a0bb71e2887d","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb"},"payload":{}}
+2018-05-19 19:02:13
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:02:13
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:13
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:02:13
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:02:13
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"d54e259e73294444a999385abd892a92","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb"},"payload":{"text":"你好","type":"FINAL"}}
+2018-05-19 19:02:13
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:13
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:02:13
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"d54e259e73294444a999385abd892a92","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb"},"payload":{"text":"你好","type":"FINAL"}}
+2018-05-19 19:02:13
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2679.7ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:02:15 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:13
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:02:13
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:13
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:02:13
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:13
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb","messageId":"NWIwMDA0MzcxMWFlODIyOTU="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjJjZDc4ZGY5LTkzZDgtNGQ0ZS1hMDNjLWZhZTg1ZGFkM2IyZSIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293408"}}
+2018-05-19 19:02:13
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb","messageId":"NWIwMDA0MzcxMWFlODIyOTU="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjJjZDc4ZGY5LTkzZDgtNGQ0ZS1hMDNjLWZhZTg1ZGFkM2IyZSIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293408"}}
+2018-05-19 19:02:13
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"99ff583b-616a-46ca-bd9f-b616a16722cb","messageId":"NWIwMDA0MzcxMWFlODIyOTU="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjJjZDc4ZGY5LTkzZDgtNGQ0ZS1hMDNjLWZhZTg1ZGFkM2IyZSIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293408"}}
+2018-05-19 19:02:13
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:02:13
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:02:13
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:02:13
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 8785d07d-84a6-4db2-8698-a474bff767fc
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:14
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 444.5ms
+date: Sat, 19 May 2018 11:02:15 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:14
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:14
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:14
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:15
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:02:15
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:02:15
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:02:15
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: e28eb45e-359c-48c9-b919-5acec1f26982
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:15
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:02:15
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 172.2ms
+date: Sat, 19 May 2018 11:02:17 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:15
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:15
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:15
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:15
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:02:15
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:17
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:17
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:02:17
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:02:17
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:02:17
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 595f1dea-92e1-4ba0-a2c0-5b0e595e30eb
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:17
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:02:17
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:02:17
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:02:19
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"88224023f4f04350a5a88f0ad6b8cabd","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是","type":"INTERMEDIATE"}}
+2018-05-19 19:02:19
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"88224023f4f04350a5a88f0ad6b8cabd","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是","type":"INTERMEDIATE"}}
+2018-05-19 19:02:19
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"fb92cf9cd500432bab06128fe9b9fd4d","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是谁","type":"INTERMEDIATE"}}
+2018-05-19 19:02:19
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"fb92cf9cd500432bab06128fe9b9fd4d","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是谁","type":"INTERMEDIATE"}}
+2018-05-19 19:02:19
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"bd42c2077b6d4281a50e6cb966fdcf9c","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{}}
+2018-05-19 19:02:19
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"bd42c2077b6d4281a50e6cb966fdcf9c","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{}}
+2018-05-19 19:02:19
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"e9ecf6bd46df41809dab3585e9f2e576","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是谁","type":"FINAL"}}
+2018-05-19 19:02:19
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:02:19
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:19
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:02:19
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:02:19
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"e9ecf6bd46df41809dab3585e9f2e576","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37"},"payload":{"text":"你是谁","type":"FINAL"}}
+2018-05-19 19:02:19
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:19
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:02:20
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2218.1ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:02:21 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:20
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:02:20
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:20
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37","messageId":"NWIwMDA0M2Q0MTEzNzYxOTQ="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjVhODYzMzYzLWIwNTItNDk1Zi1iODhiLTFhNjQwZmI4YzJiZiIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293437"}}
+2018-05-19 19:02:20
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:02:20
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:20
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37","messageId":"NWIwMDA0M2Q0MTEzNzYxOTQ="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjVhODYzMzYzLWIwNTItNDk1Zi1iODhiLTFhNjQwZmI4YzJiZiIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293437"}}
+2018-05-19 19:02:20
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"cb77076c-8797-40fe-b4ce-54814a1d7b37","messageId":"NWIwMDA0M2Q0MTEzNzYxOTQ="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjVhODYzMzYzLWIwNTItNDk1Zi1iODhiLTFhNjQwZmI4YzJiZiIsImJvdF90b2tlbiI6Im51bGwifQ==","format":"AUDIO_MPEG","url":"cid:293437"}}
+2018-05-19 19:02:20
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:02:20
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:02:20
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 14513c91-b2f5-4862-b1cd-610320490a80
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:20
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:02:20
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 172.2ms
+date: Sat, 19 May 2018 11:02:21 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:20
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:20
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:20
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:21
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:02:21
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:02:21
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:02:21
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 07333f6e-f945-4ac9-8592-1d7c4c5f923f
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:21
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:02:21
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 175.5ms
+date: Sat, 19 May 2018 11:02:23 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:21
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:21
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:21
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:21
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:02:21
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:26
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:26
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:02:26
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:02:26
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:02:26
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: add85d33-d8d2-47e8-981c-786a04555b27
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:26
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:02:26
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:02:26
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:02:27
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"9a51dc24b0a84b7c92ef938f1e099d40","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"text":"唱首歌","type":"INTERMEDIATE"}}
+2018-05-19 19:02:27
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"9a51dc24b0a84b7c92ef938f1e099d40","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"text":"唱首歌","type":"INTERMEDIATE"}}
+2018-05-19 19:02:28
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"9de35ae781e44c5a96e1ad866d4a092e","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{}}
+2018-05-19 19:02:28
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"9de35ae781e44c5a96e1ad866d4a092e","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{}}
+2018-05-19 19:02:28
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"d1ff09fb1509476ba7c34a45778c8d03","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"text":"唱首歌","type":"FINAL"}}
+2018-05-19 19:02:28
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:28
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:02:28
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:02:28
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:02:28
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"d1ff09fb1509476ba7c34a45778c8d03","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"text":"唱首歌","type":"FINAL"}}
+2018-05-19 19:02:28
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:02:28
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:02:28
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2167.7ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:02:30 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:28
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:02:28
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:28
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba","messageId":"NWIwMDA0NDYyOWRmNDIxMzc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:294961"}}
+2018-05-19 19:02:28
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:02:28
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:28
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba","messageId":"NWIwMDA0NDYyOWRmNDIxMzc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:294961"}}
+2018-05-19 19:02:28
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba","messageId":"NWIwMDA0NDYyOWRmNDIxMzc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:294961"}}
+2018-05-19 19:02:28
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:02:28
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:02:28
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 61c2812b-fd0a-4683-baa6-c85882092c62
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:28
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:02:28
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc1MF8wNjk2Y2x6bHg=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"audioItem":{"audioItemId":"1283167056","stream":{"expiryTime":"2018-05-19T19:32:30+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoiMTI4MzE2NzA1NiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/8b458e0ebdc47b77f9d5d635f3c24ac8/592146207/592146207.mp3?xcode=8af0bbed0c4fd042d1823dca873f4874"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:02:29
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 228.1ms
+date: Sat, 19 May 2018 11:02:30 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:29
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:29
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:29
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:30
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:02:30
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:02:30
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:02:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 40343cbc-39d5-49c4-9566-6c22ef4d1c4b
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:31
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:02:31
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc1MF8wNjk2Y2x6bHg=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"audioItem":{"audioItemId":"1283167056","stream":{"expiryTime":"2018-05-19T19:32:30+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoiMTI4MzE2NzA1NiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/8b458e0ebdc47b77f9d5d635f3c24ac8/592146207/592146207.mp3?xcode=8af0bbed0c4fd042d1823dca873f4874"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc1MF8wNjk2Y2x6bHg=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"5169e17b-c5f2-4a51-b430-9c4e40ce92ba"},"payload":{"audioItem":{"audioItemId":"1283167056","stream":{"expiryTime":"2018-05-19T19:32:30+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoiMTI4MzE2NzA1NiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/8b458e0ebdc47b77f9d5d635f3c24ac8/592146207/592146207.mp3?xcode=8af0bbed0c4fd042d1823dca873f4874"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Play
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-URL:http://zhangmenshiting.qianqian.com/data2/music/8b458e0ebdc47b77f9d5d635f3c24ac8/592146207/592146207.mp3?xcode=8af0bbed0c4fd042d1823dca873f4874
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-StreamId:eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImI5NWIwOTgyNmEwZTU4MWRlYjUxMzk0ZjI1YzZlODFmIiwiYm90X3Rva2VuIjoiMTI4MzE2NzA1NiJ9
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-Offset:0
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule- coming  playQueue size :1
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:1
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:IDLE
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:1
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onInit
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-play-url:http://zhangmenshiting.qianqian.com/data2/music/8b458e0ebdc47b77f9d5d635f3c24ac8/592146207/592146207.mp3?xcode=8af0bbed0c4fd042d1823dca873f4874
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:02:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 169.3ms
+date: Sat, 19 May 2018 11:02:32 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:PREPARING
+2018-05-19 19:02:31
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-isPlaying-false:1
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：29
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：29
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-==playbackStutterStarted
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:2
+2018-05-19 19:02:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 78551e01-4eda-410d-b9b6-bc22f4de47fd
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onPrepared
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onPlaying
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onPlaying---Duration----：210860
+2018-05-19 19:02:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: a1859fa7-aa40-4fea-8b19-7a6187a26271
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:31
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：29
+2018-05-19 19:02:31
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：29
+2018-05-19 19:02:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 258.2ms
+date: Sat, 19 May 2018 11:02:33 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 433.6ms
+date: Sat, 19 May 2018 11:02:33 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:32
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:02:32
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:997
+2018-05-19 19:02:32
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: b208d4e1-0b23-4daa-b10c-342c4ab10dc0
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:32
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 244.3ms
+date: Sat, 19 May 2018 11:02:34 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:32
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:32
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:32
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:46
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:15000
+2018-05-19 19:02:46
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 4a143465-f3f2-41e7-8955-c2cc635ac45d
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:02:46
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 256.4ms
+date: Sat, 19 May 2018 11:02:48 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:02:46
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:02:46
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:02:46
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:02:59
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:02:59
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:02:59
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:03:00
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :1
+2018-05-19 19:03:00
+DCS-AudioPlayerDeviceModule-onPaused
+2018-05-19 19:03:00
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 131bb919-2f9a-44c2-a7e6-0155cf174813
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:00
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:03:00
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 2008e1b4-1108-47e7-994f-c46397ab4b0e
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:00
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:03:00
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:03:00
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 227.0ms
+date: Sat, 19 May 2018 11:03:02 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:00
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:00
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:00
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:01
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"383ab8b0a56240299aae54da86f8a539","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首","type":"INTERMEDIATE"}}
+2018-05-19 19:03:01
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"383ab8b0a56240299aae54da86f8a539","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首","type":"INTERMEDIATE"}}
+2018-05-19 19:03:01
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"579bae640c8f493b856df4a34aad48a3","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首歌","type":"INTERMEDIATE"}}
+2018-05-19 19:03:01
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"579bae640c8f493b856df4a34aad48a3","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首歌","type":"INTERMEDIATE"}}
+2018-05-19 19:03:02
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"8037af23b68049e49cafad595e03afdc","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{}}
+2018-05-19 19:03:02
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"8037af23b68049e49cafad595e03afdc","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{}}
+2018-05-19 19:03:02
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"8f6037a622be4f80ab3be8d078cf7115","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首歌","type":"FINAL"}}
+2018-05-19 19:03:02
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:03:02
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:03:02
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:03:02
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:03:02
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"8f6037a622be4f80ab3be8d078cf7115","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"text":"放首歌","type":"FINAL"}}
+2018-05-19 19:03:02
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:03:02
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:03:02
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2507.2ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:03:04 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:02
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:03:02
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91","messageId":"NWIwMDA0NjdiMDY3NDE1NzA="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:295114"}}
+2018-05-19 19:03:02
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:02
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:03:02
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:03:02
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91","messageId":"NWIwMDA0NjdiMDY3NDE1NzA="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:295114"}}
+2018-05-19 19:03:02
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91","messageId":"NWIwMDA0NjdiMDY3NDE1NzA="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:295114"}}
+2018-05-19 19:03:02
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value-pause:1
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:03:02
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:03:02
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:03:02
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 8b420f0e-418e-4e68-99d7-ef9fc0b034c0
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:02
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc4M182MTA1YmdteGs=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"audioItem":{"audioItemId":"1023606622","stream":{"expiryTime":"2018-05-19T19:33:03+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoiMTAyMzYwNjYyMiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/f9a9eb1e981a3ec7c8df675b45bbe593/274960079/274960079.mp3?xcode=8af0bbed0c4fd042e9c5304b21fec782"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:03:02
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 205.3ms
+date: Sat, 19 May 2018 11:03:04 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:02
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:02
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:02
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:03
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:03:03
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:03:04
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:03:04
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:03:04
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: b20f3747-878c-421a-b2de-95a10022a0ad
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:04
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:03:04
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc4M182MTA1YmdteGs=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"audioItem":{"audioItemId":"1023606622","stream":{"expiryTime":"2018-05-19T19:33:03+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoiMTAyMzYwNjYyMiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/f9a9eb1e981a3ec7c8df675b45bbe593/274960079/274960079.mp3?xcode=8af0bbed0c4fd042e9c5304b21fec782"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyNzc4M182MTA1YmdteGs=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"0e4dcb1f-d9a5-40fb-8cf9-e4e148e0fb91"},"payload":{"audioItem":{"audioItemId":"1023606622","stream":{"expiryTime":"2018-05-19T19:33:03+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoiMTAyMzYwNjYyMiJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/f9a9eb1e981a3ec7c8df675b45bbe593/274960079/274960079.mp3?xcode=8af0bbed0c4fd042e9c5304b21fec782"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Play
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:audio
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:audio
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:03:04
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 68daef62-48a7-4914-a4fd-2e4633e6a34c
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-URL:http://zhangmenshiting.qianqian.com/data2/music/f9a9eb1e981a3ec7c8df675b45bbe593/274960079/274960079.mp3?xcode=8af0bbed0c4fd042e9c5304b21fec782
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-StreamId:eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6ImM4YjJhNDUxZDMzMzNkMDBhOTVkZjc5NWY1OWNlNGMzIiwiYm90X3Rva2VuIjoiMTAyMzYwNjYyMiJ9
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-Offset:0
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule- coming  playQueue size :1
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:1
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:1
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onInit
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-play-url:http://zhangmenshiting.qianqian.com/data2/music/f9a9eb1e981a3ec7c8df675b45bbe593/274960079/274960079.mp3?xcode=8af0bbed0c4fd042e9c5304b21fec782
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:03:04
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 199.3ms
+date: Sat, 19 May 2018 11:03:05 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:04
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:PREPARING
+2018-05-19 19:03:04
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-isPlaying-false:1
+2018-05-19 19:03:04
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 220.6ms
+date: Sat, 19 May 2018 11:03:06 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:04
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：13
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：13
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-==playbackStutterStarted
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:2
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:03:04
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 662da787-be73-43ce-9ed5-81d6d20f749b
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onPrepared
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onPlaying
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onPlaying---Duration----：328464
+2018-05-19 19:03:04
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: f1c7d683-3724-476f-9c75-e5640a552619
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:04
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：14
+2018-05-19 19:03:04
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：14
+2018-05-19 19:03:04
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 247.1ms
+date: Sat, 19 May 2018 11:03:06 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:04
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:04
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 274.6ms
+date: Sat, 19 May 2018 11:03:06 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:04
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:04
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:05
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：56
+2018-05-19 19:03:06
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:03:06
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:1991
+2018-05-19 19:03:06
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 026f49c3-e024-42d4-97a7-f095a9de88f5
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:06
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 228.5ms
+date: Sat, 19 May 2018 11:03:08 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:06
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:06
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:06
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:14
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:15000
+2018-05-19 19:03:14
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 15485134-c86e-4948-8bb3-eddbe87461aa
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:14
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 260.5ms
+date: Sat, 19 May 2018 11:03:21 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:14
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:14
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:14
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:17
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:03:18
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:03:18
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:03:18
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :1
+2018-05-19 19:03:18
+DCS-AudioPlayerDeviceModule-onPaused
+2018-05-19 19:03:18
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: ab2ae302-f06a-422e-a3c3-639e350e41f5
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:18
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: c3eb501d-87ad-456f-8b67-0192abb98052
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:18
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:03:23
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:03:23
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:03:23
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 217.6ms
+date: Sat, 19 May 2018 11:03:25 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:23
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:23
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:23
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:26
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:03:26
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:03:26
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"62efc24d5aa0461cac5273bbd0896d3f","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{}}
+2018-05-19 19:03:28
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_input","name":"StopListen","messageId":"62efc24d5aa0461cac5273bbd0896d3f","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{}}
+2018-05-19 19:03:28
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"0f282a30e1214ce588cf66e5e06db249","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{"text":"关机","type":"FINAL"}}
+2018-05-19 19:03:29
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:03:29
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:03:29
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:03:29
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:03:29
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.screen","name":"RenderVoiceInputText","messageId":"0f282a30e1214ce588cf66e5e06db249","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{"text":"关机","type":"FINAL"}}
+2018-05-19 19:03:29
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 6359.7ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:03:32 GMT
+vary: Origin
+x-powered-by: Express
+content-length: 473
+
+2018-05-19 19:03:29
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:03:31
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:03:31
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"c3BlYWtlcl9oYXJkd2FyZSsxNTI2NzI3ODA5XzI2OWNxa3QyNA==","name":"SetPhonePower","namespace":"ai.dueros.device_interface.extensions.device_control","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{"PhonePower":true,"mode":"SHUTDOWN","target":"DEFAULT"}}
+2018-05-19 19:03:32
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:03:27
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:27
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:03:27
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:03:27
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:03:27
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"c3BlYWtlcl9oYXJkd2FyZSsxNTI2NzI3ODA5XzI2OWNxa3QyNA==","name":"SetPhonePower","namespace":"ai.dueros.device_interface.extensions.device_control","dialogRequestId":"320ab841-011c-4030-be38-b057a0d7ac7a"},"payload":{"PhonePower":true,"mode":"SHUTDOWN","target":"DEFAULT"}}
+2018-05-19 19:03:27
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 3b8f1582-fe76-4851-8b52-4e878b1072ad
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:33
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 200.7ms
+date: Sat, 19 May 2018 11:03:35 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:33
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:03:33
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:03:33
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:03:42
+DCS-WakeUpImpl-wakeUpFree-ret:0
+2018-05-19 19:03:42
+DCS-AudioRecordThread-audioRecord release 
+2018-05-19 19:03:42
+DCS-AudioPlayerDeviceModule-onRelease
+2018-05-19 19:03:47
+DCS-OkHttpRequestImpl-doGetDirectivesAsync
+2018-05-19 19:03:47
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/directives] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 79398372-bc89-4fa7-95cd-248aac9307c7
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:03:47
+DCS-WakeUpImpl-wakeup path:/data/app/com.baidu.duer.dcs-1/lib/arm64/libbdEasrS1MergeNormal.so
+2018-05-19 19:03:47
+DCS-WakeUpImpl-wakeup exists:true
+2018-05-19 19:03:47
+DCS-WakeUpImpl-wakeUpInitialRet:0
+2018-05-19 19:03:47
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:03:47
+DCS-AudioRecordThread-audioRecord startRecording 
+2018-05-19 19:03:47
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/directives] 169.1ms
+content-type: multipart/related; boundary=___dueros_dcs_v1_boundary___; type=application/json
+date: Sat, 19 May 2018 11:03:51 GMT
+remote-server: 10.205.139.23:8200
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:03:47
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:03:47
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/directives
+2018-05-19 19:03:47
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:03:47
+DCS-DcsClient-getDirectives statusCode: 200
+2018-05-19 19:03:50
+DCS-WakeUpImpl-wakeUpFree-ret:0
+2018-05-19 19:03:50
+DCS-AudioRecordThread-audioRecord release 
+2018-05-19 19:03:50
+DCS-AudioPlayerDeviceModule-onRelease
+2018-05-19 19:09:13
+DCS-OkHttpRequestImpl-doGetDirectivesAsync
+2018-05-19 19:09:13
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/directives] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 28a1c723-51ac-4709-9c22-b3545d028998
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:09:13
+DCS-WakeUpImpl-wakeup path:/data/app/com.baidu.duer.dcs-1/lib/arm64/libbdEasrS1MergeNormal.so
+2018-05-19 19:09:13
+DCS-WakeUpImpl-wakeup exists:true
+2018-05-19 19:09:13
+DCS-WakeUpImpl-wakeUpInitialRet:0
+2018-05-19 19:09:13
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:09:13
+DCS-AudioRecordThread-audioRecord startRecording 
+2018-05-19 19:09:13
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/directives] 278.0ms
+content-type: multipart/related; boundary=___dueros_dcs_v1_boundary___; type=application/json
+date: Sat, 19 May 2018 11:09:15 GMT
+remote-server: 10.194.71.45:8270
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:09:13
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:09:13
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/directives
+2018-05-19 19:09:13
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:09:13
+DCS-DcsClient-getDirectives statusCode: 200
+2018-05-19 19:11:47
+DCS-WakeUpImpl-wakeUpFree-ret:0
+2018-05-19 19:11:47
+DCS-AudioPlayerDeviceModule-onRelease
+2018-05-19 19:11:47
+DCS-AudioRecordThread-audioRecord release 
+2018-05-19 19:17:32
+DCS-OkHttpRequestImpl-doGetDirectivesAsync
+2018-05-19 19:17:32
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/directives] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 017cca89-a112-411f-aff4-de63f29d285c
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:17:32
+DCS-WakeUpImpl-wakeup path:/data/app/com.baidu.duer.dcs-1/lib/arm64/libbdEasrS1MergeNormal.so
+2018-05-19 19:17:32
+DCS-WakeUpImpl-wakeup exists:true
+2018-05-19 19:17:32
+DCS-WakeUpImpl-wakeUpInitialRet:0
+2018-05-19 19:17:33
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:17:33
+DCS-AudioRecordThread-audioRecord startRecording 
+2018-05-19 19:17:33
+DCS-OkHttpRequestImpl-doGetDirectivesAsync
+2018-05-19 19:17:33
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/directives] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 6db86103-a75e-4093-95f2-05f159dd9da9
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:17:33
+DCS-DcsClient-onError,com.baidu.dcs.okhttp3.internal.http2.StreamResetException: stream was reset: CANCEL
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream.takeResponseHeaders(Http2Stream.java:155)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Codec.readResponseHeaders(Http2Codec.java:125)
+	at com.baidu.dcs.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:82)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:95)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.duer.dcs.http.intercepter.LoggingInterceptor.intercept(LoggingInterceptor.java:41)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:206)
+	at com.baidu.dcs.okhttp3.RealCall$AsyncCall.execute(RealCall.java:145)
+	at com.baidu.dcs.okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+2018-05-19 19:17:33
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/directives] 230.2ms
+content-type: multipart/related; boundary=___dueros_dcs_v1_boundary___; type=application/json
+date: Sat, 19 May 2018 11:17:35 GMT
+remote-server: 10.147.18.14:8300
+vary: Origin
+x-powered-by: Express
+content-length: 402
+
+2018-05-19 19:17:33
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:17:33
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/directives
+2018-05-19 19:17:33
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:17:33
+DCS-DcsClient-getDirectives statusCode: 200
+2018-05-19 19:17:33
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.system","name":"ThrowException","messageId":"92b9cf4b624c4d2c82fe3c31f5cf72eb"},"payload":{"code":"THROTTLING_EXCEPTION","description":"another device is connecting"}}
+2018-05-19 19:17:33
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.system","name":"ThrowException","messageId":"92b9cf4b624c4d2c82fe3c31f5cf72eb"},"payload":{"code":"THROTTLING_EXCEPTION","description":"another device is connecting"}}
+2018-05-19 19:17:33
+DCS-DeviceModuleFactory-ThrowExceptionPayload{code=THROTTLING_EXCEPTION, description='another device is connecting'}
+2018-05-19 19:17:34
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:17:34
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:17:34
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:17:34
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:17:34
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:17:34
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 4fa9b7bb-1fbd-40e4-b47e-3598711732e8
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:17:34
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:17:34
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:17:47
+DCS-DcsClient-onError,com.baidu.dcs.okhttp3.internal.http2.StreamResetException: stream was reset: NO_ERROR
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream.checkOutNotClosed(Http2Stream.java:569)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.emitFrame(Http2Stream.java:503)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.write(Http2Stream.java:483)
+	at okio.RealBufferedSink.emitCompleteSegments(RealBufferedSink.java:171)
+	at okio.RealBufferedSink.writeAll(RealBufferedSink.java:99)
+	at com.baidu.duer.dcs.framework.message.DcsStreamRequestBody.writeTo(DcsStreamRequestBody.java:48)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeOrCountBytes(MultipartBody.java:173)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeTo(MultipartBody.java:114)
+	at com.baidu.dcs.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:69)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:95)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.duer.dcs.http.intercepter.LoggingInterceptor.intercept(LoggingInterceptor.java:41)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:206)
+	at com.baidu.dcs.okhttp3.RealCall$AsyncCall.execute(RealCall.java:145)
+	at com.baidu.dcs.okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+2018-05-19 19:17:47
+DCS-VoiceInputDeviceModule-onFailed,errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:17:47
+DCS-DcsDemoActivity-onFailed-errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:17:47
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:17:47
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:17:47
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:17:47
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:17:47
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:17:47
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:17:47
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:17:47
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:17:50
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:17:50
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:17:50
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:17:50
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:17:50
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 56d02369-3f01-472c-9bbd-31c5f61e3a89
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:17:50
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:17:50
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:17:50
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:17:58
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:17:58
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:17:58
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:17:58
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:17:58
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:17:58
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:17:58
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 8590.0ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:18:00 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:17:58
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:17:58
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:17:58
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:17:58
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:17:58
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5131e974-ea69-447d-9136-ca381075d24e","messageId":"NWIwMDA3ZTNhMDAwMTQ1NTc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjNhMWM4OTM4YTZiNWIyNzE1OTk0ODVhYjU5NzUzMmY3IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:291673"}}
+2018-05-19 19:17:58
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5131e974-ea69-447d-9136-ca381075d24e","messageId":"NWIwMDA3ZTNhMDAwMTQ1NTc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjNhMWM4OTM4YTZiNWIyNzE1OTk0ODVhYjU5NzUzMmY3IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:291673"}}
+2018-05-19 19:17:58
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"5131e974-ea69-447d-9136-ca381075d24e","messageId":"NWIwMDA3ZTNhMDAwMTQ1NTc="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjNhMWM4OTM4YTZiNWIyNzE1OTk0ODVhYjU5NzUzMmY3IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:291673"}}
+2018-05-19 19:17:58
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:17:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:17:58
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:17:58
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 0e1a956f-deb6-4412-9c7b-506b4c890173
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:17:59
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 180.1ms
+date: Sat, 19 May 2018 11:18:00 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:17:59
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:17:59
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:17:59
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:00
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:18:00
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:18:00
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:18:00
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:18:00
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: bb096c74-0fda-4451-9fb9-b9bbd4b450c5
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:00
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 212.2ms
+date: Sat, 19 May 2018 11:18:02 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:00
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:00
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:00
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:00
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:18:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:18:02
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:18:02
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:18:02
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:18:02
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:18:02
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:18:02
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 32ea1cd0-44d5-40cd-8473-f0488c873228
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:02
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:18:02
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:18:07
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:18:07
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:18:07
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:18:07
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:18:07
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:18:07
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:18:07
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 5124.5ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:18:08 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:07
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:18:07
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"dabc10e3-369b-4b12-b94d-0960a17a54bc","messageId":"NWIwMDA3ZWY2ZDRiYTkxNzY="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjM1YTA0ZGMzZDA1MmY1YzFiNzdhZmJkNmQwMWIxMjM4IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288804"}}
+2018-05-19 19:18:07
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:07
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:18:07
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:18:07
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"dabc10e3-369b-4b12-b94d-0960a17a54bc","messageId":"NWIwMDA3ZWY2ZDRiYTkxNzY="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjM1YTA0ZGMzZDA1MmY1YzFiNzdhZmJkNmQwMWIxMjM4IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288804"}}
+2018-05-19 19:18:07
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"dabc10e3-369b-4b12-b94d-0960a17a54bc","messageId":"NWIwMDA3ZWY2ZDRiYTkxNzY="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjM1YTA0ZGMzZDA1MmY1YzFiNzdhZmJkNmQwMWIxMjM4IiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288804"}}
+2018-05-19 19:18:07
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:18:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:18:07
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:18:07
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 5ae42985-b017-4d84-b6b3-79b348e5ad74
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:07
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC5hbGFybSthbGVydHNfODBmOTY0Njc1YjIyYg==","name":"SetAlert","namespace":"ai.dueros.device_interface.alerts","dialogRequestId":"dabc10e3-369b-4b12-b94d-0960a17a54bc"},"payload":{"assetPlayOrder":[],"assets":[],"scheduledTime":"2018-05-19T11:19:07+0000","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0=","type":"ALARM"}}
+2018-05-19 19:18:07
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 193.0ms
+date: Sat, 19 May 2018 11:18:09 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:07
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:07
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:07
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:18:10
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:18:10
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:18:10
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: bb45f0bc-f67f-43d6-9f55-e83baa57a016
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:10
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:18:10
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC5hbGFybSthbGVydHNfODBmOTY0Njc1YjIyYg==","name":"SetAlert","namespace":"ai.dueros.device_interface.alerts","dialogRequestId":"dabc10e3-369b-4b12-b94d-0960a17a54bc"},"payload":{"assetPlayOrder":[],"assets":[],"scheduledTime":"2018-05-19T11:19:07+0000","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0=","type":"ALARM"}}
+2018-05-19 19:18:10
+DCS-AlertsDeviceModule-alert-SetAlertPayload
+2018-05-19 19:18:10
+DCS-AlertsDeviceModule-alert-scheduledTime:2018-05-19T11:19:07+0000
+2018-05-19 19:18:10
+DCS-ISO8601DateFormatter-iso8601string:2018-05-19T11:19:07+0000
+2018-05-19 19:18:10
+DCS-AlertsDeviceModule-alert-ms:1526728747000
+2018-05-19 19:18:10
+DCS-AlertsDeviceModule-alert-format:2018-05-19 19:19:07
+2018-05-19 19:18:10
+DCS-AlertsDeviceModule-add alertToken: eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0=
+2018-05-19 19:18:10
+DCS-ISO8601DateFormatter-iso8601string:2018-05-19T11:19:07+0000
+2018-05-19 19:18:10
+DCS-AlertScheduler-alert-delay start:56683
+2018-05-19 19:18:10
+DCS-AlertsFileDataStoreImpl-start postWriteSucceed
+2018-05-19 19:18:10
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: a683fed8-2e23-46ec-a823-1c2eb305baab
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:10
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 278.3ms
+date: Sat, 19 May 2018 11:18:12 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:10
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:10
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:10
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:18:10
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 373.7ms
+date: Sat, 19 May 2018 11:18:12 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:10
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:10
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:10
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:18:10
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:18:10
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:18:10
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 7a9ac3d0-a229-4141-a86e-a8f959f8eebd
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:10
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:18:10
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:18:18
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:18:18
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:18:18
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:18:18
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:18:18
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:18:18
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:18:18
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 7354.0ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:18:19 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:18
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:18:18
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:18
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e5cfc20-98ca-4cbb-b110-5f45b07e39cb","messageId":"NWIwMDA3ZjY3MGQ1ZTY3MDk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImE0YzU2OGY3MmZjYThmN2FhMGU5ZDM5NWUxZTdiNzQxIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288840"}}
+2018-05-19 19:18:18
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:18:18
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:18:18
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e5cfc20-98ca-4cbb-b110-5f45b07e39cb","messageId":"NWIwMDA3ZjY3MGQ1ZTY3MDk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImE0YzU2OGY3MmZjYThmN2FhMGU5ZDM5NWUxZTdiNzQxIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288840"}}
+2018-05-19 19:18:18
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"0e5cfc20-98ca-4cbb-b110-5f45b07e39cb","messageId":"NWIwMDA3ZjY3MGQ1ZTY3MDk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6ImE0YzU2OGY3MmZjYThmN2FhMGU5ZDM5NWUxZTdiNzQxIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:288840"}}
+2018-05-19 19:18:18
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:18:18
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:18:18
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:18:18
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 431e6ada-81bd-4478-b5b4-e695b943f21f
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:18
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 207.4ms
+date: Sat, 19 May 2018 11:18:19 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:18
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:18
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:18
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:22
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:18:22
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:18:22
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:18:22
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 15f8b28a-feb1-4969-848e-9e804ff9f59b
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:18:22
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:18:22
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 204.9ms
+date: Sat, 19 May 2018 11:18:24 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:18:22
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:18:22
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:18:22
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:18:22
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:18:22
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:07
+DCS-AlertsDeviceModule-alert-startAlert
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:19:07
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 054c93d0-d5c1-47ee-83e6-da4e70979c83
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:2
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:2
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:alert
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:IDLE
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:2
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-play-url:assets://alarm.mp3
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-playAsset:alarm.mp3
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:19:07
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:19:07
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:19:07
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 354.3ms
+date: Sat, 19 May 2018 11:19:08 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:07
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:07
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:07
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:08
+DCS-MediaPlayerImpl-onCompletion
+2018-05-19 19:19:08
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:alert
+2018-05-19 19:19:08
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:19:08
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:16
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:16
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:19:16
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:19:16
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:19:16
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 94a1e9bd-0fe4-419c-a7d9-99540f3d2900
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:16
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:19:16
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:19:16
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:19:19
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:19
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:19:19
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:19:19
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:19:19
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:19
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:19:19
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2367.4ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:19:20 GMT
+vary: Origin
+x-powered-by: Express
+content-length: 849
+
+2018-05-19 19:19:19
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:19:19
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:19
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:19:19
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:19
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3NTlfODM2OWZ0cmVm","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"8f284736-532c-4a65-89c1-db177bbb96bb"},"payload":{"audioItem":{"audioItemId":"56737208010","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiIxYTAwZDRjMjgyZjg2ZGQ1OWU2ZmUwOGU2NTUyMmZlZiIsImJvdF90b2tlbiI6IjU2NzM3MjA4MDEwIn0=","url":"http://fdfs.xmcdn.com/group12/M0B/F2/23/wKgDXFanUTWCqb6JAAXzE5nMqlk095.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:19
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3NTlfODM2OWZ0cmVm","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"8f284736-532c-4a65-89c1-db177bbb96bb"},"payload":{"audioItem":{"audioItemId":"56737208010","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiIxYTAwZDRjMjgyZjg2ZGQ1OWU2ZmUwOGU2NTUyMmZlZiIsImJvdF90b2tlbiI6IjU2NzM3MjA4MDEwIn0=","url":"http://fdfs.xmcdn.com/group12/M0B/F2/23/wKgDXFanUTWCqb6JAAXzE5nMqlk095.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3NTlfODM2OWZ0cmVm","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"8f284736-532c-4a65-89c1-db177bbb96bb"},"payload":{"audioItem":{"audioItemId":"56737208010","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiIxYTAwZDRjMjgyZjg2ZGQ1OWU2ZmUwOGU2NTUyMmZlZiIsImJvdF90b2tlbiI6IjU2NzM3MjA4MDEwIn0=","url":"http://fdfs.xmcdn.com/group12/M0B/F2/23/wKgDXFanUTWCqb6JAAXzE5nMqlk095.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Play
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-URL:http://fdfs.xmcdn.com/group12/M0B/F2/23/wKgDXFanUTWCqb6JAAXzE5nMqlk095.mp3
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-StreamId:eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiIxYTAwZDRjMjgyZjg2ZGQ1OWU2ZmUwOGU2NTUyMmZlZiIsImJvdF90b2tlbiI6IjU2NzM3MjA4MDEwIn0=
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-Offset:0
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule- coming  playQueue size :1
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:1
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:IDLE
+2018-05-19 19:19:19
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:1
+2018-05-19 19:19:19
+DCS-AudioPlayerDeviceModule-onInit
+2018-05-19 19:19:19
+DCS-MediaPlayerImpl-play-url:http://fdfs.xmcdn.com/group12/M0B/F2/23/wKgDXFanUTWCqb6JAAXzE5nMqlk095.mp3
+2018-05-19 19:19:19
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-==playbackStutterStarted
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:6
+2018-05-19 19:19:20
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 06533518-ff1c-433a-a6ab-5bc29f3971a6
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:12
+2018-05-19 19:19:20
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: aaa17bb9-79a9-4d5b-b5e1-c44796e057a1
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:20
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onPrepared
+2018-05-19 19:19:20
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:19:20
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:19:20
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onPlaying
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onPlaying---Duration----：97411
+2018-05-19 19:19:20
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 5d07426f-9b15-4eec-9a7c-c3e271a41a20
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:20
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:20
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:20
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 255.7ms
+date: Sat, 19 May 2018 11:19:22 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:20
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:20
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 253.7ms
+date: Sat, 19 May 2018 11:19:22 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:20
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:20
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 231.4ms
+date: Sat, 19 May 2018 11:19:22 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:20
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:20
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:35
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:15000
+2018-05-19 19:19:35
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 3cf3d334-3703-424a-b019-34b75de28605
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:35
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 247.9ms
+date: Sat, 19 May 2018 11:19:37 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:35
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:35
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:35
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:43
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:43
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:19:43
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:19:43
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :1
+2018-05-19 19:19:43
+DCS-AudioPlayerDeviceModule-onPaused
+2018-05-19 19:19:43
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 187a522a-a93e-4b5d-9e4c-b8418cac8374
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:43
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: cc0a3049-65aa-4813-87f3-92b97327f6a8
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:43
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:19:43
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:19:43
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:19:43
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 227.3ms
+date: Sat, 19 May 2018 11:19:44 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:43
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:43
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:43
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:46
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:46
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:47
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:19:47
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:47
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:19:47
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:19:47
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:47
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:19:48
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 5723.1ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:19:49 GMT
+vary: Origin
+x-powered-by: Express
+content-length: 849
+
+2018-05-19 19:19:48
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:19:48
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3ODdfMzAwMjRsYWZv","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"3004edec-b991-4df3-917f-45dbd8fdb3c9"},"payload":{"audioItem":{"audioItemId":"56711666713","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiI1MGM1OTUyYmYyMjJhYzkzNTdkZTE4MzlmMGQzOGQxNyIsImJvdF90b2tlbiI6IjU2NzExNjY2NzEzIn0=","url":"http://fdfs.xmcdn.com/group15/M02/C5/FA/wKgDZVZoFOWwKGS5AAXVVUUfZGA219.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:48
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:48
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:19:48
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:48
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3ODdfMzAwMjRsYWZv","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"3004edec-b991-4df3-917f-45dbd8fdb3c9"},"payload":{"audioItem":{"audioItemId":"56711666713","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiI1MGM1OTUyYmYyMjJhYzkzNTdkZTE4MzlmMGQzOGQxNyIsImJvdF90b2tlbiI6IjU2NzExNjY2NzEzIn0=","url":"http://fdfs.xmcdn.com/group15/M02/C5/FA/wKgDZVZoFOWwKGS5AAXVVUUfZGA219.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC52b2NhbF9qb2tlKzE1MjY3Mjg3ODdfMzAwMjRsYWZv","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"3004edec-b991-4df3-917f-45dbd8fdb3c9"},"payload":{"audioItem":{"audioItemId":"56711666713","stream":{"offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiI1MGM1OTUyYmYyMjJhYzkzNTdkZTE4MzlmMGQzOGQxNyIsImJvdF90b2tlbiI6IjU2NzExNjY2NzEzIn0=","url":"http://fdfs.xmcdn.com/group15/M02/C5/FA/wKgDZVZoFOWwKGS5AAXVVUUfZGA219.mp3"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Play
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:audio
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:audio
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:19:48
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 5fcd0a5b-82fa-4ca7-a3e2-804f5b4f7021
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-URL:http://fdfs.xmcdn.com/group15/M02/C5/FA/wKgDZVZoFOWwKGS5AAXVVUUfZGA219.mp3
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-StreamId:eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LnZvY2FsX2pva2UiLCJyZXN1bHRfdG9rZW4iOiI1MGM1OTUyYmYyMjJhYzkzNTdkZTE4MzlmMGQzOGQxNyIsImJvdF90b2tlbiI6IjU2NzExNjY2NzEzIn0=
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-Offset:0
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule- coming  playQueue size :1
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:1
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:19:48
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:1
+2018-05-19 19:19:48
+DCS-AudioPlayerDeviceModule-onInit
+2018-05-19 19:19:48
+DCS-MediaPlayerImpl-play-url:http://fdfs.xmcdn.com/group15/M02/C5/FA/wKgDZVZoFOWwKGS5AAXVVUUfZGA219.mp3
+2018-05-19 19:19:48
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:19:49
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 738.8ms
+date: Sat, 19 May 2018 11:19:51 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:49
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:49
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:49
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-==playbackStutterStarted
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:5
+2018-05-19 19:19:49
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: b70479be-8ffe-4950-ab2c-a4cbb79813de
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:10
+2018-05-19 19:19:49
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 7cf50a51-0c04-4f5a-ae5f-f5bbd8bfb4c3
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:49
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onPrepared
+2018-05-19 19:19:49
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:19:49
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:19:49
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onPlaying
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onPlaying---Duration----：95478
+2018-05-19 19:19:49
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: be568e40-b226-4369-93cd-c7d021244de4
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:49
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:49
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:50
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 240.0ms
+date: Sat, 19 May 2018 11:19:51 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:50
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 210.0ms
+date: Sat, 19 May 2018 11:19:51 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:50
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:50
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:50
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 247.9ms
+date: Sat, 19 May 2018 11:19:51 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:50
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:50
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:53
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: fd7430f0-4717-4b1d-b9b2-bd473ae71476
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:53
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 235.3ms
+date: Sat, 19 May 2018 11:19:55 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:53
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:53
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:53
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:56
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:56
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:19:56
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:19:56
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :1
+2018-05-19 19:19:56
+DCS-AudioPlayerDeviceModule-onPaused
+2018-05-19 19:19:56
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 509ac901-5152-461c-a82c-d9b21afb000c
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:56
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:19:56
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: c1d76595-700d-4545-a661-9acc018edfa1
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:56
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:19:56
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:19:56
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 269.0ms
+date: Sat, 19 May 2018 11:19:57 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:56
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:56
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:56
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:19:58
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:58
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:19:58
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:19:58
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:19:58
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:19:58
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:19:58
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 2791.2ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:20:00 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:58
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:19:58
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0","messageId":"NWIwMDA4NjAyMjMyMzI1OTk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:286566"}}
+2018-05-19 19:19:58
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:58
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:19:58
+DCS-DcsDemoActivity-onSucceed-statusCode:200
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:19:58
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0","messageId":"NWIwMDA4NjAyMjMyMzI1OTk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:286566"}}
+2018-05-19 19:19:58
+DCS-VoiceOutputDeviceModule-rawMessage:{"header":{"namespace":"ai.dueros.device_interface.voice_output","name":"Speak","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0","messageId":"NWIwMDA4NjAyMjMyMzI1OTk="},"payload":{"token":"eyJib3RfaWQiOiJ1cyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoibnVsbCJ9","format":"AUDIO_MPEG","url":"cid:286566"}}
+2018-05-19 19:19:58
+DCS-VoiceOutputDeviceModule-directiveName:Speak
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:3
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:3
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value-pause:1
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:dialog
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:19:58
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:3
+2018-05-19 19:19:58
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputStarted ok 
+2018-05-19 19:19:58
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 05be8ebf-f489-4d7a-8524-fbbc31c255eb
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:19:59
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:59
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:19:59
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODgwMF8wMzRnMGtibms=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0"},"payload":{"audioItem":{"audioItemId":"1006343021","stream":{"expiryTime":"2018-05-19T19:50:00+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoiMTAwNjM0MzAyMSJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/dbc07167dbab473c80e1c59ddbb08105/555886580/555886580.mp3?xcode=77a8e3bd552755f52b8f63f9ac723f36"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:19:59
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 506.3ms
+date: Sat, 19 May 2018 11:20:00 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:19:59
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:19:59
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:19:59
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onCompletion,channelName:dialog
+2018-05-19 19:20:00
+DCS-VoiceOutputDeviceModule- IMediaPlayer onCompletion
+2018-05-19 19:20:00
+DCS-VoiceOutputDeviceModule-finishedSpeechItem speakQueue size :0
+2018-05-19 19:20:00
+DCS-DeviceModuleFactory-DcsResponseBodyEnqueue-onVoiceOutputFinished ok 
+2018-05-19 19:20:00
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: f44375aa-959f-4a7f-941d-895cd92a4427
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:00
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODgwMF8wMzRnMGtibms=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0"},"payload":{"audioItem":{"audioItemId":"1006343021","stream":{"expiryTime":"2018-05-19T19:50:00+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoiMTAwNjM0MzAyMSJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/dbc07167dbab473c80e1c59ddbb08105/555886580/555886580.mp3?xcode=77a8e3bd552755f52b8f63f9ac723f36"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODgwMF8wMzRnMGtibms=","name":"Play","namespace":"ai.dueros.device_interface.audio_player","dialogRequestId":"74e158fc-5b1f-4a7a-b1eb-a65c8e19aee0"},"payload":{"audioItem":{"audioItemId":"1006343021","stream":{"expiryTime":"2018-05-19T19:50:00+08:00","offsetInMilliseconds":0,"progressReport":{"progressReportIntervalInMilliseconds":15000},"streamFormat":"AUDIO_MPEG","token":"eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoiMTAwNjM0MzAyMSJ9","url":"http://zhangmenshiting.qianqian.com/data2/music/dbc07167dbab473c80e1c59ddbb08105/555886580/555886580.mp3?xcode=77a8e3bd552755f52b8f63f9ac723f36"}},"playBehavior":"REPLACE_ALL"}}
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Play
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:audio
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:audio
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:20:00
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: e8b4ac9a-58e5-4c33-b876-ce5fe9075434
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-URL:http://zhangmenshiting.qianqian.com/data2/music/dbc07167dbab473c80e1c59ddbb08105/555886580/555886580.mp3?xcode=77a8e3bd552755f52b8f63f9ac723f36
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-StreamId:eyJib3RfaWQiOiJhdWRpb19tdXNpYyIsInJlc3VsdF90b2tlbiI6IjMyNzhkZTNkYTcxOTNmNGJhZjEwZGQyYTE1ZDQ1MmUzIiwiYm90X3Rva2VuIjoiMTAwNjM0MzAyMSJ9
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-Offset:0
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule- coming  playQueue size :1
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-play,will handlePlay
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-handlePlay-priority:1
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-handlePlay-value:1
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:STOPPED
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-play:1
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-onInit
+2018-05-19 19:20:00
+DCS-MediaPlayerImpl-play-url:http://zhangmenshiting.qianqian.com/data2/music/dbc07167dbab473c80e1c59ddbb08105/555886580/555886580.mp3?xcode=77a8e3bd552755f52b8f63f9ac723f36
+2018-05-19 19:20:00
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:20:00
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 203.8ms
+date: Sat, 19 May 2018 11:20:02 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:00
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:00
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:00
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-channelName:audio
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-PlayState:PREPARING
+2018-05-19 19:20:00
+DCS-BaseMultiChannelMediaPlayer-findToPlay-value-isPlaying-false:1
+2018-05-19 19:20:00
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 257.8ms
+date: Sat, 19 May 2018 11:20:02 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:00
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:00
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:00
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：12
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：12
+2018-05-19 19:20:00
+DCS-AudioPlayerDeviceModule-==playbackStutterStarted
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:2
+2018-05-19 19:20:01
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: a4cfff08-5466-43df-b122-91365946f945
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:01
+DCS-MediaPlayerImpl-onPrepared
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-onPrepared
+2018-05-19 19:20:01
+DCS-MediaPlayerImpl-currentVolume:0.8
+2018-05-19 19:20:01
+DCS-MediaPlayerImpl-currentSeekMilliseconds:0
+2018-05-19 19:20:01
+DCS-MediaPlayerImpl-seekTo,currentSeekMilliseconds:0
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-onPlaying
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-onPlaying---Duration----：252839
+2018-05-19 19:20:01
+DCS-MediaPlayerImpl-onSeekComplete
+2018-05-19 19:20:01
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 2f9e2e38-918d-4ac3-bbea-125dcdec66ab
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：12
+2018-05-19 19:20:01
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：12
+2018-05-19 19:20:01
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 575.4ms
+date: Sat, 19 May 2018 11:20:03 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:01
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:01
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:01
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:01
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 582.5ms
+date: Sat, 19 May 2018 11:20:03 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:01
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:01
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:01
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:02
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：87
+2018-05-19 19:20:03
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:20:03
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:1992
+2018-05-19 19:20:03
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 46daf203-6d53-4228-bb19-3006b06c22ee
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:03
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 269.4ms
+date: Sat, 19 May 2018 11:20:04 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:03
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:03
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:03
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:16
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:15001
+2018-05-19 19:20:16
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 1943d52b-fce3-4d80-8b0f-fbb4d2db789f
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:16
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 267.7ms
+date: Sat, 19 May 2018 11:20:17 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:16
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:16
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:16
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:31
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:30000
+2018-05-19 19:20:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 1ef001d6-6edb-4277-a5b9-0d93dd93c61d
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 278.8ms
+date: Sat, 19 May 2018 11:20:32 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:20:46
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:45000
+2018-05-19 19:20:46
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: a210b536-55b6-484c-a2b1-e87eba80cc1a
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:20:46
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 342.6ms
+date: Sat, 19 May 2018 11:20:47 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:20:46
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:20:46
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:20:46
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:01
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:60000
+2018-05-19 19:21:01
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 3c840dce-4b9d-4aad-9f61-ac0b9f5e5e7a
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:01
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 295.3ms
+date: Sat, 19 May 2018 11:21:02 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:21:01
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:21:01
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:01
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:16
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:75001
+2018-05-19 19:21:16
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: c0e1b3f1-eef5-4f44-8a32-eac643294104
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:16
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 343.1ms
+date: Sat, 19 May 2018 11:21:17 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:21:16
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:21:16
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:16
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:29
+DCS-AlertsDeviceModule-alert-stopAlert
+2018-05-19 19:21:29
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: e9498a2d-3f91-4ec1-b87e-6561b3971b93
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:30
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 334.3ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:21:31 GMT
+vary: Origin
+x-powered-by: Express
+content-length: 503
+
+2018-05-19 19:21:30
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:21:30
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:30
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC5hbGFybSthbGVydHNfOGYyYmY1NTg3YjllMA==","name":"DeleteAlert","namespace":"ai.dueros.device_interface.alerts"},"payload":{"token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0="}}
+2018-05-19 19:21:30
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:21:30
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YWkuZHVlcm9zLmJvdC5hbGFybSthbGVydHNfOGYyYmY1NTg3YjllMA==","name":"DeleteAlert","namespace":"ai.dueros.device_interface.alerts"},"payload":{"token":"eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0="}}
+2018-05-19 19:21:30
+DCS-AlertsDeviceModule-alert-DeleteAlertPayload
+2018-05-19 19:21:30
+DCS-AlertsDeviceModule-delete alertToken: eyJib3RfaWQiOiJhaS5kdWVyb3MuYm90LmFsYXJtIiwicmVzdWx0X3Rva2VuIjoiMzVhMDRkYzNkMDUyZjVjMWI3N2FmYmQ2ZDAxYjEyMzgiLCJib3RfdG9rZW4iOiI1MTI4NzgwNWRhMzc5In0=
+2018-05-19 19:21:30
+DCS-AlertsDeviceModule-delete  scheduler is  null
+2018-05-19 19:21:30
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: a1a93479-743b-4a15-89ab-ae52e86e62e8
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:30
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 285.8ms
+date: Sat, 19 May 2018 11:21:32 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:21:30
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:21:30
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:30
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:31
+DCS-AudioPlayerDeviceModule-getCurrentOffsetInMilliseconds offset:90000
+2018-05-19 19:21:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 432d48c2-9bbc-4107-aee2-b30fa6c562be
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: fd445fb7-037a-4cb1-9fdd-5302dbc193e4
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 435.3ms
+date: Sat, 19 May 2018 11:21:32 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:21:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:31
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/events] 313.3ms
+content-type: multipart/form-data; boundary=___dueros_dcs_v1_boundary___;
+date: Sat, 19 May 2018 11:21:33 GMT
+vary: Origin
+x-powered-by: Express
+content-length: 332
+
+2018-05-19 19:21:31
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:21:31
+DCS-DcsResponseBodyEnqueue-DcsResponseBodyEnqueue-RecordThread:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODg5M18wNzE4NHluejY=","name":"Stop","namespace":"ai.dueros.device_interface.audio_player"},"payload":{}}
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse code ,200
+2018-05-19 19:21:31
+DCS-DcsFramework-DcsResponseBodyEnqueue-handleDirective-MSG:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODg5M18wNzE4NHluejY=","name":"Stop","namespace":"ai.dueros.device_interface.audio_player"},"payload":{}}
+2018-05-19 19:21:31
+DCS-AudioPlayerDeviceModule-dcs-play-directive:{"header":{"messageId":"YXVkaW9fbXVzaWMrMTUyNjcyODg5M18wNzE4NHluejY=","name":"Stop","namespace":"ai.dueros.device_interface.audio_player"},"payload":{}}
+2018-05-19 19:21:31
+DCS-AudioPlayerDeviceModule-dcs-play-directiveName:Stop
+2018-05-19 19:21:31
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:audio
+2018-05-19 19:21:31
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:audio
+2018-05-19 19:21:31
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:21:31
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 4b4bb482-68c6-48f2-bf78-a41ae1ecd91f
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:21:31
+DCS-HttpLog-response: 204 [https://dueros-h2.baidu.com/dcs/v1/events] 235.6ms
+date: Sat, 19 May 2018 11:21:33 GMT
+vary: Origin
+x-powered-by: Express
+
+2018-05-19 19:21:31
+DCS-ResponseCallback-onResponse:204
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse OK ,https://dueros-h2.baidu.com/dcs/v1/events
+2018-05-19 19:21:31
+DCS-DcsClient-onResponse code ,204
+2018-05-19 19:21:34
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:21:34
+DCS-AudioPlayerDeviceModule-onBufferingUpdate：100
+2018-05-19 19:22:03
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:22:03
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: becf43c0-06ee-4de4-90b1-9e385b15f47c
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:22:03
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 100.5ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:22:05 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:22:03
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:26:34
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:26:34
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: b833ae81-7166-4193-b07e-6a6c76c9fe0d
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:26:34
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 101.3ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:26:35 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:26:34
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:31:04
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:31:04
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 1413bd89-972b-4886-aafc-0928f03faa6e
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:31:04
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 539.8ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:31:05 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:31:04
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:35:34
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:35:34
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 83bd88f0-bed4-42ea-8c70-2205cafd5f20
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:35:35
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 522.5ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:35:35 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:35:35
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:35:35
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode ret:1
+2018-05-19 19:35:35
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode succeed !!
+2018-05-19 19:35:35
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:35:35
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:0
+2018-05-19 19:35:35
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:35:35
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:35:35
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:35:35
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:35:35
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:35:35
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 9348e448-24ad-44ea-a227-d850a7c94009
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:35:53
+DCS-DcsClient-onError,com.baidu.dcs.okhttp3.internal.http2.StreamResetException: stream was reset: NO_ERROR
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream.checkOutNotClosed(Http2Stream.java:569)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.emitFrame(Http2Stream.java:503)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.write(Http2Stream.java:483)
+	at okio.RealBufferedSink.emitCompleteSegments(RealBufferedSink.java:171)
+	at okio.RealBufferedSink.writeAll(RealBufferedSink.java:99)
+	at com.baidu.duer.dcs.framework.message.DcsStreamRequestBody.writeTo(DcsStreamRequestBody.java:48)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeOrCountBytes(MultipartBody.java:173)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeTo(MultipartBody.java:114)
+	at com.baidu.dcs.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:69)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:95)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.duer.dcs.http.intercepter.LoggingInterceptor.intercept(LoggingInterceptor.java:41)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:206)
+	at com.baidu.dcs.okhttp3.RealCall$AsyncCall.execute(RealCall.java:145)
+	at com.baidu.dcs.okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+2018-05-19 19:35:53
+DCS-VoiceInputDeviceModule-onFailed,errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:35:53
+DCS-DcsDemoActivity-onFailed-errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:35:53
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:35:53
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:35:53
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:35:53
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:35:53
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:35:53
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:35:53
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:35:53
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:40:04
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:40:04
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: f4c5702d-ca14-44b2-9b34-8da3822ef830
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:40:04
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 272.7ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:40:05 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:40:04
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:44:34
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:44:34
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 9a0f2ce4-ef70-4f77-9408-6ae94cdab4ec
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:44:34
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 108.8ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:44:35 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:44:34
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:49:04
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:49:04
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 046d9ce3-d7e6-4442-927a-7e9dd90b1aa4
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:49:04
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 109.6ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:49:05 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:49:04
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:53:34
+DCS-OkHttpRequestImpl-doGetPingAsync
+2018-05-19 19:53:34
+DCS-HttpLog-request: GET [https://dueros-h2.baidu.com/dcs/v1/ping] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: d8ec18ed-fbfa-44a7-ae94-d3c5fb990c75
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:53:35
+DCS-HttpLog-response: 200 [https://dueros-h2.baidu.com/dcs/v1/ping] 332.0ms
+content-type: application/json; charset=utf-8
+date: Sat, 19 May 2018 11:53:36 GMT
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+vary: Origin
+x-powered-by: Express
+content-length: 2
+
+2018-05-19 19:53:35
+DCS-ResponseCallback-onResponse:200
+2018-05-19 19:54:29
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode ret:1
+2018-05-19 19:54:29
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode succeed !!
+2018-05-19 19:54:29
+DCS-WakeUpDecodeThread-wakeup after wakeUpDecode over !!
+2018-05-19 19:54:29
+DCS-WakeUpDecodeThread-wakeup after linkedBlockingDeque size:1
+2018-05-19 19:54:29
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:true
+2018-05-19 19:54:29
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-stop-channelName:dialog
+2018-05-19 19:54:29
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped  del:dialog
+2018-05-19 19:54:29
+DCS-BaseMultiChannelMediaPlayer-ListenerProxy onStopped after del :0
+2018-05-19 19:54:29
+DCS-HttpLog-request: POST [https://dueros-h2.baidu.com/dcs/v1/events] null
+dueros-device-id: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+saiyalogid: 7d4a6eb6-ea3f-4c55-8ff7-271ba51e64f4
+Content-Type: multipart/form-data; boundary=dumi-boundory
+StandbyDeviceId: 1AAAF2D61E9B87F416244E9B347D024CE10E41F887E84ED39CF7CB8AD083514B
+debug: 0
+User-Agent: sampleapp/1.0.0
+Authorization: Bearer 23.9e963a0b9bc751b04311accd6f6524a5.2592000.1529319726.1711386190-11234074
+
+2018-05-19 19:54:29
+DCS-DcsDemoActivity-onStartRecord
+2018-05-19 19:54:48
+DCS-DcsClient-onError,com.baidu.dcs.okhttp3.internal.http2.StreamResetException: stream was reset: NO_ERROR
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream.checkOutNotClosed(Http2Stream.java:569)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.emitFrame(Http2Stream.java:503)
+	at com.baidu.dcs.okhttp3.internal.http2.Http2Stream$FramingSink.write(Http2Stream.java:483)
+	at okio.RealBufferedSink.emitCompleteSegments(RealBufferedSink.java:171)
+	at okio.RealBufferedSink.writeAll(RealBufferedSink.java:99)
+	at com.baidu.duer.dcs.framework.message.DcsStreamRequestBody.writeTo(DcsStreamRequestBody.java:48)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeOrCountBytes(MultipartBody.java:173)
+	at com.baidu.dcs.okhttp3.MultipartBody.writeTo(MultipartBody.java:114)
+	at com.baidu.dcs.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:69)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:95)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.duer.dcs.http.intercepter.LoggingInterceptor.intercept(LoggingInterceptor.java:41)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:134)
+	at com.baidu.dcs.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:109)
+	at com.baidu.dcs.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:206)
+	at com.baidu.dcs.okhttp3.RealCall$AsyncCall.execute(RealCall.java:145)
+	at com.baidu.dcs.okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+2018-05-19 19:54:48
+DCS-VoiceInputDeviceModule-onFailed,errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:54:48
+DCS-DcsDemoActivity-onFailed-errorMessage:stream was reset: NO_ERROR
+2018-05-19 19:54:48
+DCS-WakeUpDecodeThread-wakeup wakeUpDecode start
+2018-05-19 19:54:48
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:54:48
+DCS-AudioVoiceInputThread-closed
+2018-05-19 19:54:48
+DCS-AudioVoiceInputThread-onWriteFinished 
+2018-05-19 19:54:48
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
+2018-05-19 19:54:48
+DCS-BaseMultiChannelMediaPlayer-ChannelMediaPlayer-setActive-isActive:false
+2018-05-19 19:54:48
+DCS-DcsDemoActivity-onFinishRecord
+2018-05-19 19:54:48
+DCS-WakeUpImpl-wakeup wakeUpDecodeThread  is Started !
