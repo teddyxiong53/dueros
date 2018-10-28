@@ -18,5 +18,27 @@ def main():
 	dueros = DuerOS(player)
 	dueros.set_directive_listener(directive_listener)
 	
+	audio.link(dueros)
+	dueros.start()
+	audio.start()
+	
+	prompt_tone_player = PromptTone()
+	
+	while True:
+		try:
+			try:
+				print '\n'
+				input('input [ENTER] key to start conversation\n')
+			except SyntaxError:
+				pass
+			prompt_tone_player.play()
+			dueros.listen()
+			
+		except KeyboardInterrupt:
+			break
+			
+	dueros.stop()
+	audio.stop()
+	
 if __name__ == '__main__':
 	main()
