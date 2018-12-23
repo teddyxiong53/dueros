@@ -228,11 +228,30 @@ class DuerOS(object):
 		try:
 			namespace = directive['header']['namespace']
 			namespace = self.__namespace_convert(namespace)
-			
+			if not namespace :
+				return
+			name = directive['header']['name']
+			name = self.__name_convert(name):
+			if hasattr(self, namespace):
+				interface = getattr(self, namespace)
+				directive_func = getattr(interface, name, None)
+				if directive_func:
+					directive_func(directive)
+				else:
+					logger.info('{}.{} is not implemented'.format(namespace, name))
+			else:
+				logger.info("{} is not implement".format(namespace))
 		except KeyError as e:
 			logger.exception(e)
 		except Exception as e:
 			logger.exception(e)
+			
+			
+	def __ping(self, connection):
+		if datetime.datetime.utcnow() >= self.__ping_time:
+			connection.ping(uuid.uuid4().hex[:8])
+			logger.debug('ping at {}'.format(datetime.datetime.utcnow().strftime("%a %b %d %H:%M%S %Y")))
+			self.__ping_time = datetime.datetime.utcno() + datetime.timedelta(seconds=240)
 			
 	def __namespace_convert(self, namespace):
 		if namespace == 'ai.dueros.device_interface.voice_output':
